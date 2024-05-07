@@ -22,6 +22,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -223,6 +224,10 @@ h1 {
 
 .hebergements {
     width: 65%;
+}
+
+.hebergements h3 {
+    margin-bottom: 0;
 }
 
 .hebergements-cards {
